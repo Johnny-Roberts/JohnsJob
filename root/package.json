@@ -1,0 +1,25 @@
+{
+  "name": "johnsjob",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.0",
+    "keystone": "^4.2.1",
+    "lodash": "^4.17.21",
+    "next": "^10.2.0",
+    "pug": "^3.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "eslint-config-keystone": "3.0.0",
+    "eslint-plugin-react": "^7.23.2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node keystone.js"
+  }
+}
